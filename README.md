@@ -1,6 +1,6 @@
-# Mixed Messages (js portofolio)
+# Mixed Messages (js portfolio)
 ## What is this?
-- js portofolio
+- js portfolio
 - private for now
 - Outputs random Fr. Chopin quotes
 
@@ -8,4 +8,4 @@
 Not really deceided.
 
 ## Files
-- *portofolio.js* is the target file.
+- *portfolio.js* is the target file.
