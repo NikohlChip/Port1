@@ -9,3 +9,7 @@ Not really deceided.
 
 ## Files
 - *portfolio.js* is the target file.
+
+## Completed tasks
+- VSCode implementation
+- GitHub linkage
