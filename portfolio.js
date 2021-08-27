@@ -5,3 +5,10 @@ const maxim = [
     "If the newspapers cut me up so much that I shall not venture before the world again, I have resolved to become a house painter; that would be as easy as anything else, and I should, at any rate, still be an artist!",
     "I wish I could throw off the thoughts which poison my happiness, but I take a kind of pleasure in indulging them."
     ];
+
+const outputMaxim = () => {
+    let randNum = Math.floor(Math.random()*maxim.length);
+    console.log(`Fr. Chopin[${randNum + 1}]: ${maxim[randNum]}`);
+}
+
+outputMaxim();
