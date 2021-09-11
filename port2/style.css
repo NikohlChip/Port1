@@ -6,6 +6,7 @@ h1 {
     text-align: center;
     background-image: linear-gradient(to right, rgba(0, 100, 130,255), rgba(0, 0, 230,0));
     border-radius: 3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 a:hover {
@@ -13,7 +14,8 @@ a:hover {
 }
 
 h2,p,ul,table {
-    color:rgb(247, 242, 213)
+    color:rgb(247, 242, 213);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 hr {
@@ -26,6 +28,7 @@ hr {
 
 code {
     color: red;
+    background-color: rgb(32, 22, 8);
 }
 
 li {
@@ -40,6 +43,10 @@ table,td,th {
 
 table {
     width: 100%;
+}
+
+thead {
+    border-bottom: 3px double;
 }
 
 tr:nth-child(even) {
