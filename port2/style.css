@@ -43,3 +43,9 @@ table {
 tr:nth-child(even) {
     background-color: rgb(5,10,30);
 }
+
+.bordered {
+    border-style: solid;
+    border-color: rgb(8, 36, 77);
+    padding-right: 20px;
+}
