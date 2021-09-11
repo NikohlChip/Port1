@@ -51,6 +51,7 @@ table {
 
 thead {
     border-bottom: 3px double;
+    border-color: white;
 }
 
 tr:nth-child(even) {
