@@ -13,6 +13,10 @@ a:hover {
     color:rgb(0, 199, 0);
 }
 
+a:link {
+    color: orangered;
+}
+
 h2,p,ul,table {
     color:rgb(247, 242, 213);
     font-family: Arial, Helvetica, sans-serif;
