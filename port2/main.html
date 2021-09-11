@@ -11,19 +11,109 @@
 
     <h2>INDEX</h2>
     <ul>
-        <li>Definition and Usage</li>
+        <li><a href="#definition_and_usage">Definition and Usage</a></li>
         <li>Browser Support</li>
         <li>Attributes</li>
         <li>Global Attributes</li>
         <li>Related Pages</li>
         <li>Default CSS Settings</li>
     </ul>
+    <hr>
 
-    <h2>Definition and Usage</h2>
+    <h2 id="definition_and_usage">Definition and Usage</h2>
     <p>The <code>&lt;link&gt;</code> tag defines the relationship between the current document and an external resource.
         This tag is most often used to link to external style sheets.
         This element is an empty element, it contains attributes only.
     </p>
+    <hr>
+
+    <h2>Browser Support</h2>
+    <ul>
+        <li>Chrome</li>
+        <li>Edge</li>
+        <li>Firefox</li>
+        <li>Safari</li>
+        <li>Opera</li>
+    </ul>
+    <hr>
+
+    <h2>Attributes</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Attribute</th>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>crossorigin</td>
+                <td>anonymous<br>
+                    use-credentials</td>
+                <td>Specifies how the element handles cross-origin requests</td>
+            </tr>
+            <tr>
+                <td>href</td>
+                <td>URL</td>
+                <td>Specifies the location of the linked document</td>
+            </tr>
+            <tr>
+                <td>hreflang</td>
+                <td>language_code</td>
+                <td>Specifies the language of the text in the linked document</td>
+            </tr>
+            <tr>
+                <td>media</td>
+                <td>media_query</td>
+                <td>Specifies on what device the linked document will be displayed</td>
+            </tr>
+            <tr>
+                <td>referrerpolicy</td>
+                <td>no-referrer<br>
+                    no-referrer-when-downgrade<br>
+                    origin<br>
+                    origin-when-cross-origin<br>
+                    unsafe-url</td>
+                <td>Specifies which referrer to use when fetching the resource</td>
+            </tr>
+            <tr>
+                <td>rel</td>
+                <td>alternate<br>
+                    author<br>
+                    dns-prefetch<br>
+                    help<br>
+                    icon<br>
+                    license<br>
+                    next<br>
+                    pingback<br>
+                    preconnect<br>
+                    prefetch<br>
+                    preload<br>
+                    prerender<br>
+                    prev<br>
+                    search<br>
+                    stylesheet</td>
+                <td><b>Required.</b> Specifies the relationship between the current document and the linked document</td>
+            </tr>
+            <tr>
+                <td>sizes</td>
+                <td>HeightxWidth<br>
+                    any</td>
+                <td>Specifies the size of the linked resource. Only for rel="icon"</td>
+            </tr>
+            <tr>
+                <td>title</td>
+                <td></td>
+                <td>Defines a preferred or an alternate stylesheet</td>
+            </tr>
+            <tr>
+                <td>type</td>
+                <td>media_type</td>
+                <td>Specifies the media type of the linked document</td>
+            </tr>
+        </tbody>
+    </table>
 
 
 </html>
