@@ -29,3 +29,17 @@ code {
 li {
     list-style-type: square;
 }
+
+table,td,th {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(5,10,30);
+}
