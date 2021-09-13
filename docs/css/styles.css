@@ -2,11 +2,16 @@ body {
     background: black;
 }
 
-header {
+h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: 50px;
     color: white;
+    text-align: center;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -15,7 +20,14 @@ a:link {
     font-size: 16px;
 }
 
-section {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: grey;
 }
