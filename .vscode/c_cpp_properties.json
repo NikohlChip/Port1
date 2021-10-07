@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${default}",
+                "C:/msys64/mingw64/include/c++/10.3.0"
+            ],
+            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
