@@ -6,7 +6,7 @@
                 "${default}",
                 "C:/msys64/mingw64/include/c++/10.3.0"
             ],
-            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\cl.exe",
+            "compilerPath": "/usr/bin/gcc",
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-gcc-x64"
